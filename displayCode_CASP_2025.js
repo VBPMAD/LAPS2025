@@ -20,7 +20,11 @@ function displayCodeCASP() {
    case 61485143:
      var valueOne = loader.engine.document.getElementById(61485143).getProperty('value.value');
      loader.engine.document.getElementById(61485143).setValue(({"value": valueOne.toLowerCase()})); 
+     if (loader.engine.document.getElemntById(61485168).visible == true) {
+       loader.engine.cocument.getElementById(106187212).visible = false;
+     }
      break;
   }
+
 }
 window.onchange = displayCodeCASP;
