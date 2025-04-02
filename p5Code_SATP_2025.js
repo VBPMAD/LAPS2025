@@ -35,6 +35,7 @@ function displayCodeSATP() {
       }
 
       if (loader.engine.document.rootNode[34]?.offsetParent != null) {
+        loader.engine.document.getElementById(97747666).style.visibility = "hidden";
         loader.engine.document.getElementById(97747666).visible = false;
 
       }
