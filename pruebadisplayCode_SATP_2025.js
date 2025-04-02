@@ -21,7 +21,7 @@ default: valueCode = ""; break;
      var valueOne = loader.engine.document.getElementById(61871084).getProperty('value.value');
      loader.engine.document.getElementById(61871084).setValue(({"value": valueOne.toLowerCase()})); 
      if (loader.engine.document.rootNode[34].offsetParent != null)
-       loader.engine.document.getElementById(97747666).visible = false);
+       loader.engine.document.getElementById(97747666).visible = false;
      break;
   }
 }
